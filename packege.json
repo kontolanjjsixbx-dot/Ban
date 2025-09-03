@@ -1,0 +1,22 @@
+{
+  "support": {
+    "email": "support@whatsapp.com",
+    "form": "https://www.whatsapp.com/contact",
+    "phone": "+1-415-503-3232"
+  },
+  "backup": {
+    "enabled": true,
+    "path": "./backups/",
+    "includeMedia": false
+  },
+  "destruction": {
+    "account": {
+      "method": "official_support",
+      "timeline": "24-72_hours"
+    },
+    "channel": {
+      "method": "admin_delete",
+      "timeline": "7_days"
+    }
+  }
+}
